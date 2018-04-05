@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+import(graphics)
+import(stats)
+importFrom("FuzzyNumbers", "plot", "supp", "core", "TriangularFuzzyNumber")
+exportMethods(FANOVA)
+exportMethods(plotTFNs)
+
